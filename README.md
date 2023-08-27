@@ -55,7 +55,7 @@ X68000版 SUPER HANGON に関する覚書
 4. コピー先ディスクの BGM_DEMO.BAT を AUTOEXEC.BAT にリネームする。
 5. AUTOEXEC.BATの先頭に以下を加える。
 
-    path bgm;grp_data;b:grp_data
+        path bgm;grp_data;b:grp_data
 
 6. コピー先ディスクで起動する。
 
@@ -79,8 +79,8 @@ X68000版 SUPER HANGON に関する覚書
 2. ブランクディスクを用意し、FORMAT.Xでフォーマットする。
 3. A:に Human68k v2のシステムディスク、B:にフォーマット済みディスクが入った状態で、
 
-    A:
-    SYS B:
+        A:
+        SYS B:
 
 としてブランクディスクに HUMAN.SYS を書き込む。
 
@@ -89,11 +89,11 @@ X68000版 SUPER HANGON に関する覚書
 6. A:を SUPER HANGON DiskA に入れ替え、HUMAN.SYS 以外のすべてのファイルを隠しファイルも含めてB:にコピーする。
 7. B:のCONFIG.SYSに以下を加える
 
-    DEVICE = \SCSIDRV.SYS /ID0
+        DEVICE = \SCSIDRV.SYS /ID0
 
 8. B:のAUTOEXEC.BATのpath文の前に以下を加える
 
-    SUBST B: C:\SPHANGON\DISKB
+        SUBST B: C:\SPHANGON\DISKB
 
 9. 起動ハードディスクドライブのルートに SPHANGON のディレクトリを作り、その中にDISKBディレクトリを作る。
 10. DISKBディレクトリに SUPER HANGON DiskB の内容を DISKCOPY.X を使ってすべてコピーする。
