@@ -16,6 +16,8 @@ X68000版 SUPER HANGON に関する覚書
 * デカキャラパッチ
 * ハードディスクインストール 
 
+<img src='images/sph2.jpeg'/>
+
 ---
 
 ## テストモード
