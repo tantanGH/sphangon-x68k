@@ -86,7 +86,7 @@ X68000版 SUPER HANGON に関する覚書
 
 4. SCSIDRV.SYS をB:にコピーする。
 5. SUBST.X および COMMAND.X を Human68k 3.02のシステムディスクからB:にコピーする。
-6. A:を SUPER HANGON DiskA に入れ替え、HUMAN.SYS 以外のすべてのファイルを隠しファイルも含めてB:にコピーする。
+6. A:を SUPER HANGON DiskA に入れ替え、HUMAN.SYS, COMMAND.X 以外のすべてのファイルを隠しファイルも含めてB:にコピーする。
 7. B:のCONFIG.SYSに以下を加える
 
         DEVICE = \SCSIDRV.SYS /ID0
