@@ -15,6 +15,7 @@ X68000版 SUPER HANGON に関する覚書
 * BGMデモモード
 * デカキャラパッチ
 * ハードディスクインストール 
+* Phantom X
 
 <img src='images/sph2.jpeg'/>
 
@@ -108,6 +109,14 @@ X68000版 SUPER HANGON に関する覚書
 
 ---
 
+## Phantom X
+
+Phantom X 機で本ソフトを動作させる場合は、MPU種別を68000にした上で、EMUWAITを4にする必要があります。
+EMUWAIT=0~3ではOPMアクセスのタイミングが狂ってBGMが正常に鳴らなくなります。
+
+---
+
 ## 更新履歴
 
+2023.09.13 ... Phantom X について追記
 2023.08.27 ... 初版
